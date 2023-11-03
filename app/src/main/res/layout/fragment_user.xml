@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.UserFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/main_color_shopeeFood"
+        android:paddingLeft="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ic_avatar"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_avatar" />
+            <Button
+                android:id="@+id/btnLoginOrRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="5dp"
+                android:text="Đăng nhập / Đăng ký"
+                android:textSize="11sp"
+                android:layout_toRightOf="@id/ic_avatar"
+                android:textColor="@color/main_color_shopeeFood"
+                android:backgroundTint="@color/white"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_bottom_text"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/ic_wallet_vourcher"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:tint="@color/main_color_shopeeFood"
+            app:srcCompat="@drawable/ic_vourcher" />
+        <TextView
+            android:id="@+id/txtVoucher"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Ví Voucher"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ic_wallet_vourcher"/>
+        <ImageView
+            android:id="@+id/ic_arrow_right"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="200dp"
+            android:layout_toRightOf="@id/txtVoucher"
+            app:srcCompat="@drawable/ic_arrow_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_bottom_text"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/ic_payment"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:tint="@color/main_color_shopeeFood"
+            app:srcCompat="@drawable/ic_wallet" />
+        <TextView
+            android:id="@+id/txtWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Thanh toán"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ic_payment"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="196dp"
+            android:layout_toRightOf="@id/txtWallet"
+            app:srcCompat="@drawable/ic_arrow_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/ic_location_user"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:tint="@color/green_blue"
+            app:srcCompat="@drawable/ic_pin_location" />
+        <TextView
+            android:id="@+id/txtLocation_user"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Địa chỉ"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ic_location_user"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="227dp"
+            android:layout_toRightOf="@id/txtLocation_user"
+            app:srcCompat="@drawable/ic_arrow_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/background_gray_white_100"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_bottom_text"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/ic_letter"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:tint="@color/dark_blue"
+            app:srcCompat="@drawable/ic_letter" />
+        <TextView
+            android:id="@+id/txtLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Mời bạn bè"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ic_letter"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="196dp"
+            android:layout_toRightOf="@id/txtLetter"
+            app:srcCompat="@drawable/ic_arrow_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_bottom_text"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/ic_setting"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:tint="@color/dark_blue"
+            app:srcCompat="@drawable/ic_setting" />
+        <TextView
+            android:id="@+id/txtSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Cài đặt"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/ic_setting"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="224dp"
+            android:layout_toRightOf="@id/txtSetting"
+            app:srcCompat="@drawable/ic_arrow_right" />
+    </RelativeLayout>
+</LinearLayout>

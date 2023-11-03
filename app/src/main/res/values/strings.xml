@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ShopeeFood</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_order">Đơn hàng</string>
+    <string name="menu_love">Thích</string>
+    <string name="menu_notification">Thông báo</string>
+    <string name="menu_user">Tôi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
